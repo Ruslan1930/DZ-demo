@@ -1,0 +1,66 @@
+body {
+    background-color: #F39494;
+}
+form {
+    background-color: #FFFEFE;
+}
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Open', 'Sans';
+}
+span {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open', 'Sans';
+}
+a {
+    color: #089FE0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open', 'Sans';
+}
+#company {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+#name {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+#surname {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+#email {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+button{
+    color: #FFFFFF;
+    background-color: #089FE0;
+    font-family: 'Open', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+#checked {
+    color: #666666; 
+    font-family: 'Open', 'Sans';
+    font-size: 14px;
+    font-weight: 400;
+}
+a {
+    color: #089FE0;
+    font-family: 'Open', 'Sans';
+    font-size: 14px;
+    font-weight: 400;
+}
