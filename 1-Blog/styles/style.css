@@ -1,15 +1,44 @@
 * {
-    background-color: #374151;
     box-sizing: border-box;
 }
 body {
+    background-color: #374151;
     color: #FFFFFF;
     font-weight: 400;
     font-family: 'Roboto';
-    margin: 0;
+    max-width: 1440px;
+    height: 1516px;
+    margin: 0 auto;
+    padding: 0;
 }
 header {
-    margin: 72px 180px;
+    margin: 80px 180px;
+    /* margin-top: 80px;
+    margin-bottom: 80px; */
+}
+header > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.heroB {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Source', 'Sans','Pro';
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul:nth-child(1) {
+   margin-right: 52px;
+}
+ul:nth-child(2) {
+    margin-right: 39px;
 }
 nav a {
     color: #FFFFFF;
@@ -18,95 +47,114 @@ nav a {
     text-decoration: none;
     margin-bottom: 200px;
 }
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#search {
+    width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    background: rgba(31, 41, 55, 0.6);
+    padding: 10px 30px;
+    color: #FFFFFF;
+}
+form {
+    position: relative;
+}
+form::before {
+    position: absolute;
+    content: url(../image/search.svg);
+    top: 8px;
+    left: 11px;
 }
 h1 {
     font-size: 24px;
     line-height: 38px;
     font-weight: 400;
-    margin: 0;
-    /* Почему-то он перечеркнул мне фонт-вэйт и пришлось заново перезадавать, хотя в Body стоит font-weight 400 */
+    margin: 0 auto;
+    padding: 0;
 }
 h1 {
-    margin: 0 457px 30px 457px;
-}
-section p {
-    font-size: 16px;
-    line-height: 30px;
-}
-footer p {
-    font-size: 16px;
-    line-height: 28px;
-    /* margin: 0 auto 77px;  не получилось применить автоцентрирование с помощью auto*/
-    margin: 0 700px 77px 700px;
-}
-.heroBlog {
-    color: #FFFFFF;
-    font-size: 18px;
-    line-height: 21.09px;
-    text-decoration: none;
-    /* почему-то верхняя часть прилипла и я не могу сделать отступ верхней границы */
-}
-.heroB {
-    background-color: rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Source', 'Sans', 'Pro';
-    line-height: 22.63px;
-}
-
-#search {
-    background-color: rgba(31, 41, 55, 0.6);
-    /* font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75; При таких настройках поисковик деформируется*/
-    border: 1px solid rgba(31, 41, 55, 0.6);
-    border-radius: 100px;
-    color: rgba(255, 255, 255, 0.6);
-    padding: 15px 30px;
-    height: 25px;
+    max-width: 525px;
+    height: 76px;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Roboto';
+    text-align: center;
 }
 .frontend {
     font-size: 14px;
     line-height: 16.41px;
     font-weight: 400; 
-}
-.FIO {
-    font-size: 16px;
-    line-height: 28px;
-}
-.profession {
-    font-size: 14px;
-    line-height: 28px;
-}
-.paragraph1 {
-    font-size: 20px;
-    line-height: 32px;
-}
-.pLink {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.frontend {
     margin: 0 630px 14px 630px;
 }
+div > .user {
+    padding: 0;
+}
 .user {
-    margin: 0 586px 28px 640px;
+    width: 214px;
+    height: 53px;
+    margin: 0 586px 100px 640px;
 }
 .userPhoto {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 50px;
 }
-.pc {
+.user .FIO {
+    width: 148px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.user .profession {
+    width: 85px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(175, 171, 171);
+}
+.image {
     width: 896px;
     height: 594px;
+    border-radius: 5px;
     margin: 0 272px 69px 272px;
 }
-.info {
-    margin: 0 367px 103px 367px;
+section .info {
+
+}
+.paragraph1 {
+    width: 708px;
+    height: 101px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 0 365px 130px 365px;
+    color: #FFFFFF;
+}
+.paragraph2 {
+    width: 708px;
+    height: 281px;
+    font-family: 'Roboto';
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 365px 103px 365px;
+}
+.pLink {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+footer {
+    width: 226px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-bottom: 77px;
 }
