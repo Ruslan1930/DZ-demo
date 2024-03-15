@@ -6,15 +6,13 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     font-family: 'Roboto';
-    max-width: 1440px;
     height: 1516px;
     margin: 0 auto;
     padding: 0;
 }
 header {
-    margin: 80px 180px;
-    /* margin-top: 80px;
-    margin-bottom: 80px; */
+    margin: 80px auto;
+    max-width: 1080px;
 }
 header > a {
     color: #FFFFFF;
@@ -31,13 +29,13 @@ header > a {
 }
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
-ul:nth-child(1) {
+li:nth-child(1) {
    margin-right: 52px;
 }
-ul:nth-child(2) {
+li:nth-child(2) {
     margin-right: 39px;
 }
 nav a {
@@ -61,37 +59,38 @@ form {
 form::before {
     position: absolute;
     content: url(../image/search.svg);
-    top: 8px;
-    left: 11px;
+    top: 14px;
+    left: 18px;
 }
-h1 {
-    font-size: 24px;
-    line-height: 38px;
-    font-weight: 400;
+section > .firstSection {
     margin: 0 auto;
-    padding: 0;
+    margin-bottom: 70px;
 }
-h1 {
+.author {
     max-width: 525px;
-    height: 76px;
-    font-weight: normal;
-    font-size: 24px;
-    font-family: 'Roboto';
-    text-align: center;
+    margin: 0 auto;
 }
 .frontend {
     font-size: 14px;
     line-height: 16.41px;
     font-weight: 400; 
-    margin: 0 630px 14px 630px;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 172px 0px 172px;
 }
-div > .user {
-    padding: 0;
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    height: 76px;
+    font-family: 'Roboto';
+    padding-bottom: 30px;
 }
 .user {
     width: 214px;
     height: 53px;
-    margin: 0 586px 100px 640px;
+    margin-bottom: 98px;
+    padding: 0;
+    /* Отступ не делается, хотя в макете показано, что отступ 28px */
 }
 .userPhoto {
     width: 50px;
@@ -114,47 +113,45 @@ div > .user {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    color: rgb(175, 171, 171);
+    color: rgba(255, 255, 255, 1);
 }
 .image {
-    width: 896px;
+    max-width: 896px;
     height: 594px;
     border-radius: 5px;
-    margin: 0 272px 69px 272px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 section .info {
-
+    max-width: 708px;
+    height: 101px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin: 0 auto;
 }
 .paragraph1 {
-    width: 708px;
-    height: 101px;
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    margin: 0 365px 130px 365px;
-    color: #FFFFFF;
+    padding-left: 367px;
+    padding-right: 367px;
 }
 .paragraph2 {
-    width: 708px;
-    height: 281px;
-    font-family: 'Roboto';
     line-height: 30px;
     font-size: 16px;
-    font-weight: normal;
-    margin: 0 365px 103px 365px;
+    padding-left: 367px;
+    padding-right: 367px;
 }
 .pLink {
     color: #FFFFFF;
     text-decoration: underline;
 }
 footer {
-    width: 226px;
+    max-width: 226px;
     height: 28px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     margin: 0 auto;
-    margin-bottom: 77px;
 }
