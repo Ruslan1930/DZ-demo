@@ -6,7 +6,6 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     font-family: 'Roboto';
-    height: 1516px;
     margin: 0 auto;
     padding: 0;
 }
@@ -18,19 +17,23 @@ header > a {
     color: #FFFFFF;
     text-decoration: none;
 }
+.heroBlog {
+    margin-right: 77px;
+}
 .heroB {
-    width: 35px;
-    height: 35px;
+    padding: 5px 8px;
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.15);
     font-size: 18px;
-    line-height: 22px;
     font-family: 'Source', 'Sans','Pro';
 }
 nav ul {
     list-style: none;
     margin: 0 auto;
     padding: 0;
+}
+ul > li {
+    display: inline-block;
 }
 li:nth-child(1) {
    margin-right: 52px;
@@ -41,13 +44,11 @@ li:nth-child(2) {
 nav a {
     color: #FFFFFF;
     font-size: 16px;
-    line-height: 18.75px;
     text-decoration: none;
     margin-bottom: 200px;
 }
 #search {
-    width: 224px;
-    height: 40px;
+    max-width: 224px;
     border-radius: 100px;
     background: rgba(31, 41, 55, 0.6);
     padding: 10px 30px;
@@ -59,60 +60,42 @@ form {
 form::before {
     position: absolute;
     content: url(../image/search.svg);
-    top: 14px;
-    left: 18px;
+    top: 11px;
+    left: 11px;
 }
 section > .firstSection {
     margin: 0 auto;
     margin-bottom: 70px;
-}
-.author {
-    max-width: 525px;
-    margin: 0 auto;
+    display: inline-block;
 }
 .frontend {
+    max-width: 180px;
     font-size: 14px;
-    line-height: 16.41px;
-    font-weight: 400; 
     color: rgba(255, 255, 255, 1);
-    padding: 0 172px 0px 172px;
+    margin: 0 auto;
+    margin-bottom: 14px;
 }
 h1 {
+    max-width: 525px;
     font-size: 24px;
-    line-height: 38px;
-    font-weight: 400;
-    height: 76px;
-    font-family: 'Roboto';
-    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.user1 {
+    max-width: 214px;
+    margin: 0 auto;
 }
 .user {
-    width: 214px;
-    height: 53px;
-    margin-bottom: 98px;
-    padding: 0;
-    /* Отступ не делается, хотя в макете показано, что отступ 28px */
+    line-height: 28px;
 }
-.userPhoto {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-.user .FIO {
+.FIO {
     width: 148px;
-    height: 28px;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
 }
-.user .profession {
+.profession {
     width: 85px;
-    height: 28px;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
-    line-height: 28px;
     color: rgba(255, 255, 255, 1);
 }
 .image {
@@ -122,36 +105,26 @@ h1 {
     margin: 0 auto;
     margin-bottom: 70px;
 }
-section .info {
-    max-width: 708px;
-    height: 101px;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-family: 'Roboto';
+.info {
+    max-width: 708px; 
     margin: 0 auto;
+    margin-bottom: 103px;
 }
 .paragraph1 {
     font-size: 20px;
     line-height: 32px;
-    padding-left: 367px;
-    padding-right: 367px;
 }
 .paragraph2 {
     line-height: 30px;
     font-size: 16px;
-    padding-left: 367px;
-    padding-right: 367px;
 }
 .pLink {
     color: #FFFFFF;
     text-decoration: underline;
 }
-footer {
+.last {
     max-width: 226px;
-    height: 28px;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
     margin: 0 auto;
+    margin-bottom: 77px;
 }
