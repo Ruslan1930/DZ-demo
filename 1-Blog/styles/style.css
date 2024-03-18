@@ -16,6 +16,7 @@ header {
 header > a {
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 18px;
 }
 .heroBlog {
     margin-right: 77px;
@@ -60,8 +61,8 @@ form {
 form::before {
     position: absolute;
     content: url(../image/search.svg);
-    top: 11px;
-    left: 11px;
+    top: 14px;
+    left: 18px;
 }
 section > .firstSection {
     margin: 0 auto;
@@ -122,7 +123,7 @@ h1 {
     color: #FFFFFF;
     text-decoration: underline;
 }
-.last {
+.footer {
     max-width: 226px;
     font-size: 16px;
     margin: 0 auto;

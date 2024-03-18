@@ -1,6 +1,21 @@
-body {
-    background-color: #F39494;
+* {
+    box-sizing: border-box;
 }
+body {
+    background: linear-gradient(
+            225deg,
+            #fdc5c5 25.45%,
+            rgba(242, 152, 222, 0) 100%
+        ),
+        linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%),
+        #f39494;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%
+}
+html {
+    height: 100%
+ }
 form {
     background-color: #FFFEFE;
 }
