@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #374151;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin: 0 auto;
+    padding: 0;
+    
+}
+header {
+    margin: 80px auto;
+    max-width: 1080px;
+}
+header > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.heroBlog {
+    margin-right: 77px;
+}
+.heroB:active {
+    background: rgba(0, 0, 0, 0.15);
+}
+.heroB {
+    padding: 5px 8px;
+    border-radius: 3px;
+    /* Можно эту букву "В" встаавить как картинку */
+    
+    font-size: 18px;
+    font-family: 'Source', 'Sans','Pro';
+}
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+ul > li {
+    display: inline-block;
+}
+li:nth-child(1) {
+   margin-right: 52px;
+}
+li:nth-child(2) {
+    margin-right: 39px;
+}
+nav a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 200px;
+}
+#search {
+    max-width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #374151;
+    padding: 9px 128px 12px 49px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#search:hover {
+    background: rgba(31, 41, 55, 0.6);
+    /* Заметил, что когда он запоминает введенные до этого слова и если их выбрать, то он начинает менять фон на белый */
+}
+form {
+    position: relative;
+    margin-left: 346px;
+}
+form::before {
+    position: absolute;
+    content: url(../image/search.svg);
+    padding: 14px 17px 12px 18px;
+}
+section > .firstSection {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: inline-block;
+}
+.frontend {
+    max-width: 180px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+h1 {
+    max-width: 525px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.user1 {
+    max-width: 214px;
+    margin: 0 auto;
+}
+.user {
+    line-height: 28px;
+}
+.FIO {
+    width: 148px;
+    font-size: 16px;
+}
+.profession {
+    width: 85px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+.image {
+    max-width: 896px;
+    height: 594px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.info {
+    max-width: 708px; 
+    margin: 0 auto;
+    margin-bottom: 103px;
+}
+.paragraph1 {
+    font-size: 20px;
+    line-height: 32px;
+}
+.paragraph2 {
+    line-height: 30px;
+    font-size: 16px;
+}
+.pLink {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.footer {
+    max-width: 226px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 77px;
+}
