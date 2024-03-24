@@ -14,68 +14,173 @@ body {
     height: 100%
 }
 html {
-    height: 100%
- }
-form {
-    background-color: #FFFEFE;
+    height: 100% 
 }
-h1 {
-    color: #333333;
+.registerForm {
+    max-width: 582px;
+    height: 573px;
+    max-height: 573px;
+    background: #FFFF;
+    margin: 225px auto;
+    border-radius: 10px;
+}
+.register {
+    width: 383px;
     font-size: 36px;
     font-weight: 700;
-    font-family: 'Open', 'Sans';
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 72px;
+    color: #333333;
+    font-family: 'Open','Sans';
 }
-span {
+.loginForm {
+    width: 237px;
+    height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 47px;
+}
+.loginForm > span {
     color: #666666;
-    font-size: 18px;
+    width: 166px;
+    height: 26px;
     font-weight: 400;
-    font-family: 'Open', 'Sans';
+    font-family: 'Open' , 'Sans';
+    font-size: 18px;
 }
-a {
+.enter {
     color: #089FE0;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Open', 'Sans';
+    width: 65px;
+    height: 26px
+}
+.enter:hover {
+    color: #7dccee;
+}
+.company1 {
+    max-width: 394px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 21px; 
 }
 #company {
+    max-width: 233px;
+    height: 26px;
+    border: 1px solid transparent;
+    font-weight: 600;
     color: #333333;
     font-size: 16px;
-    font-weight: 600;
+    font-family: 'Open' , 'Sans';
+    margin: 9px 150px 9px 11px;
+}
+input [type = text]::placeholder {
+    color: black;
+}  
+.nameSurname {
+    max-width: 394px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    /* не понимаю как добавить разделительную полосу в блок */
 }
 #name {
-    color: #999999;
+    max-width: 151px;
+    height: 26px;
+    font-family: 'Open' , 'Sans';
+    font-style: italic;
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    margin: 9px 36px 9px 11px;
+    border: 1px solid transparent;
+    color: #999999;
 }
 #surname {
-    color: #999999;
+    max-width: 151px;
+    height: 26px;
+    font-family: 'Open' , 'Sans';
+    font-style: italic;
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    border: 1px solid transparent;
+    margin: 9px 5px 9px 10px;
+    color: #999999;
+    /*  почему margin 35px не дает разместить корректно*/
+}
+.pochta {
+    max-width: 394px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 22px;
 }
 #email {
-    color: #999999;
+    max-width: 151px;
+    height: 26px;
+    font-family: 'Open' , 'Sans';
+    font-style: italic;
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    color: #999999;
+    margin: 9px 232px 9px 11px;
+    border: 1px solid transparent;
 }
-button{
-    color: #FFFFFF;
+.btn {
+    max-width: 394px;
+    height: 44px;
     background-color: #089FE0;
-    font-family: 'Open', sans-serif;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+.btn:hover{
+    background: #089FE0;
+    /* border: 1px solid  #FFFf; */
+}
+.admit {
+    max-width: 190px;
+    height: 26px;
+    color: #FFFF;
     font-size: 18px;
+    font-family: 'Open' , 'Sans';
     font-weight: 400;
+    text-align: center;
+    background: transparent;
+    margin: 9px 56px 9px 102px;
+    border: 1px solid transparent;
+}
+.admit::after {
+    position: absolute;
+    content: url(../images/Arrow\ 1.svg);
+    padding-left: 56px;
+}
+.footer {
+    max-width: 371px;
+    height: 19px;
+    margin: 0 auto;
+    margin-bottom: 91px;
+    text-align: center;
 }
 #checked {
-    color: #666666; 
-    font-family: 'Open', 'Sans';
-    font-size: 14px;
-    font-weight: 400;
+    max-width: 15px;
+    height: 16px;
+    background: #F5F5F5;  
+    border-radius: 5px;
+    border: 1px solid transparent;
 }
-a {
-    color: #089FE0;
-    font-family: 'Open', 'Sans';
+    /* не получилось стилизовать чекбокс, чтобы он был невидимым */
+
+.accept {
+    max-width: 371px;
+    height: 19px;
     font-size: 14px;
-    font-weight: 400;
+    font-family: 'Open' , 'Sans';
+    font-weight: 400px;
+    color: #666666;
+}
+.accept > a {
+    color: #089FE0;
+    text-decoration: none;
 }

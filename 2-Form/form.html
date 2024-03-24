@@ -8,30 +8,32 @@
 </head>
 <body>
     <main>
-        <form action="###">
-            <div>
-                <h1>Регистрация</h1>
-                <span>Уже есть аккаунт?</span>
-                <a href="login-form">Войти</a>
-            </div>
-            <div>
+        <form action="###" class="registerForm">
+                <h1 class="register">Регистрация</h1>
+                <div class="loginForm">
+                    <span>Уже есть аккаунт?</span>
+                    <a href="login-form" class="enter">Войти</a>
+                </div>
+            <div class="company1">
                 <label for="company"></label>
                 <input type="text" id="company" placeholder="Моя компания" name="company">
             </div>
-           <div>
+           <div class="nameSurname">
                 <label for="name"></label>
                 <input type="name" id="name" name="name" placeholder="Имя">
                 <label for="surname"></label>
                 <input type="text" placeholder="Фамилия" id="surname" name="surname">
             </div> 
-            <div>
+            <div class="pochta">
                 <label for="email"></label>
                 <input type="email" placeholder="E-mail" id="email" name="email" required>
             </div>
-            <button>Зарегестрироваться&rarr;</button>
-            <div>
+            <div class="btn">
+                <button class="admit">Зарегистрироваться</button>
+            </div>
+            <div class="footer">
                 <input type="checkbox" id="checked" name="checked">
-                <label for="checked">Я прочитал и принимаю <a href="##">Условия пользования</a></label>
+                <label for="checked" class="accept">Я прочитал и принимаю <a href="##">Условия пользования</a></label>
             </div>
         </form>
     </main>

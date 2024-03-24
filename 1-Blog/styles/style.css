@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto';
     margin: 0 auto;
     padding: 0;
+    
 }
 header {
     margin: 80px auto;
@@ -21,10 +22,14 @@ header > a {
 .heroBlog {
     margin-right: 77px;
 }
+.heroB:active {
+    background: rgba(0, 0, 0, 0.15);
+}
 .heroB {
     padding: 5px 8px;
     border-radius: 3px;
-    background: rgba(0, 0, 0, 0.15);
+    /* Можно эту букву "В" встаавить как картинку */
+    
     font-size: 18px;
     font-family: 'Source', 'Sans','Pro';
 }
@@ -50,19 +55,25 @@ nav a {
 }
 #search {
     max-width: 224px;
+    height: 40px;
     border-radius: 100px;
-    background: rgba(31, 41, 55, 0.6);
-    padding: 10px 30px;
+    background-color: #374151;
+    padding: 9px 128px 12px 49px;
     color: #FFFFFF;
+    font-size: 16px;
+}
+#search:hover {
+    background: rgba(31, 41, 55, 0.6);
+    /* Заметил, что когда он запоминает введенные до этого слова и если их выбрать, то он начинает менять фон на белый */
 }
 form {
     position: relative;
+    margin-left: 346px;
 }
 form::before {
     position: absolute;
     content: url(../image/search.svg);
-    top: 14px;
-    left: 18px;
+    padding: 14px 17px 12px 18px;
 }
 section > .firstSection {
     margin: 0 auto;
@@ -82,6 +93,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 .user1 {
     max-width: 214px;
